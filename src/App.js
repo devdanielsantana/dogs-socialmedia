@@ -12,8 +12,17 @@ import Photo from './Components/Photo/Photo';
 import UserProfile from './Components/User/UserProfile';
 import NotFound from './Components/NotFound';
 import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module'
+ 
 ReactGA.initialize('G-VBLYBXMXFX');
 ReactGA.pageview(window.location.pathname + window.location.search);
+
+const tagManagerArgs = {
+    gtmId: 'G-VBLYBXMXFX'
+}
+ 
+TagManager.initialize(tagManagerArgs)
+
 
 
 function App() {
