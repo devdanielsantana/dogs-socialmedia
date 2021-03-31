@@ -11,6 +11,10 @@ import ProtectedRoute from './Components/Helper/ProtectedRoute';
 import Photo from './Components/Photo/Photo';
 import UserProfile from './Components/User/UserProfile';
 import NotFound from './Components/NotFound';
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-VBLYBXMXFX');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 function App() {
   return (
