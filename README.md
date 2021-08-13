@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello, this project was made with React
+To see the results online, you can acces this link: https://dogs-socialmedia.vercel.app/
 
 ## Available Scripts
 
